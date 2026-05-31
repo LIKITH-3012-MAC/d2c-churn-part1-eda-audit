@@ -12,7 +12,7 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 plt.rcParams['figure.figsize'] = (10, 6)
-data_path = '../data/d2c churn data package/'"""
+data_path = 'data/d2c_churn_data_package/'"""
 
 text_loading = """### 1. Data Loading & Schema Inspection"""
 code_load = """customers = pd.read_csv(data_path + 'customers.csv')
